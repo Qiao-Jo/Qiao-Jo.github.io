@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?iy2tdw');
+    src: url('fonts/icomoon.eot?iy2tdw#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?iy2tdw') format('truetype'),
+        url('fonts/icomoon.woff?iy2tdw') format('woff'),
+        url('fonts/icomoon.svg?iy2tdw#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+body{
+    background-color: #e2e3e8;
+}
+.container {
+    box-sizing: border-box;
+    margin: 130px auto;
+    width: 387px;
+}
+
+header {
+    margin-bottom: 20px;
+    width: 387px;
+    height: 40px;
+    color: #39a8d1;
+    font: 700 30px/40px "Microsoft YaHei";
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.8);
+    font-family: 'icomoon';
+    /* 为什么字体图标失败了啊？ */
+    /* 因为未把Font文件夹放在该网页的根目录 */
+    /* vertical-align: middle; */
+    /* 如何把字体图标和文字对齐？ */
+}
+
+/* .container span {
+    font-family: 'icomoon';
+} */
+
+.login_body {
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 50%;
+    width: 387px;
+    height: 250px;
+    background-color: #fff;
+    border: 1px solid #c2c6ce;
+    border-bottom: 3px double #c2c6ce;
+    border-radius: 10px;
+    /* background: url(images/2.webp) no-repeat;
+    opacity:0.5; */
+}
+
+input {
+    outline: none;
+}
+.login_txt .account {
+    padding-left: 30px;
+    position: absolute;
+    /* 使得表单控件处于中间 */
+    margin-left: -123px;
+    top: 50px;
+    width: 216px;
+    height: 40px;
+    line-height: 40px;
+    /* border: 1px solid #c7c8cc; */
+}
+
+.login_txt .pas {
+    padding-left: 30px;
+    position: absolute;
+    /* 使得表单控件处于中间 */
+    margin-left: -123px;
+    top: 90px;
+    width: 216px;
+    height: 40px;
+    line-height: 40px;
+    /* border: 1px solid #c7c8cc; */
+}
+
+.login_txt a {
+    position: absolute;
+    margin-left: 130px;
+    top: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: underline;
+    font-size: 12px;
+    color: #000;
+}
+
+.login_btn input {
+    position: absolute;
+    margin-left: -123px;
+    top: 150px;
+    width:  249px;
+    height: 40px;
+    background-color: rgba(57, 168, 209,0.3);
+    color: #fefcfd;
+    font: 700 14px "Microsoft YaHei";
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1.5s,transform 1.5s;
+    /* box-shadow: none; */
+    /* 按钮自带了一个盒子阴影 */
+    /* 删除表单元素自带的边框 */
+    border: 0;
+}
+
+.login_btn:hover input {
+    /* background: url(images/2.webp) no-repeat; */
+    /* 如何让鼠标移动回去 */
+    /* 要过渡谁就在谁上加！ 而不是hover */
+    background-color: rgba(0, 89, 255, 0.5);
+    transform: translate(0,-1px);
+}
+
+.login_btn .note {
+    position: absolute;
+    margin-left: -123px;
+    width:  249px;
+    top: 195px;
+    font: 700 12px "Microsoft YaHei";
+    color: #444444;
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 12px;
+    /* width:  246px; */
+    /* 为什么 container的padding? */
+    text-align: center;
+    color: #a8a6a8;
+    font-size: 12px;
+}
