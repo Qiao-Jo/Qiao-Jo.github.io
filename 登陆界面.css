@@ -122,7 +122,7 @@ input {
 .login_btn:hover input {
     /* background: url(images/2.webp) no-repeat; */
     /* 如何让鼠标移动回去 */
-    /* 要过渡谁就在谁上加 而不是hover */
+    /* 要过渡谁就在谁上加！ 而不是hover */
     background-color: rgba(0, 89, 255, 0.5);
     transform: translate(0,-1px);
 }
