@@ -21,7 +21,7 @@
                 <div class="login_txt">
                     <input class="account" type="text" required="required" placeholder="请输入您的账号"
                         autofocus="autofocus" />
-                    <label for="eye"><img src="images/close.png" alt="" id="eye"></label>
+                    <label for="eye"><img src="close.png" alt="" id="eye"></label>
                     <input class="pas" type="password" required="required" placeholder="请输入您的密码" id="pwd">
                     <a href="#">忘记密码？</a>
                 </div>
@@ -45,11 +45,11 @@
         eye.onclick = function () {
             if (flag == 0) {
                 pwd.type = 'text';
-                eye.src = 'images/open.png';
+                eye.src = 'open.png';
                 flag = 1;
             } else {
                 pwd.type = 'password';
-                eye.src = 'images/close.png';
+                eye.src = 'close.png';
                 flag = 0;
             }
         }
