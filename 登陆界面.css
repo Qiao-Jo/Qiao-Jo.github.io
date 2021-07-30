@@ -4,11 +4,11 @@
 }
 @font-face {
     font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?iy2tdw');
-    src: url('fonts/icomoon.eot?iy2tdw#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?iy2tdw') format('truetype'),
-        url('fonts/icomoon.woff?iy2tdw') format('woff'),
-        url('fonts/icomoon.svg?iy2tdw#icomoon') format('svg');
+    src: url('icomoon.eot?iy2tdw');
+    src: url('icomoon.eot?iy2tdw#iefix') format('embedded-opentype'),
+        url('icomoon.ttf?iy2tdw') format('truetype'),
+        url('icomoon.woff?iy2tdw') format('woff'),
+        url('icomoon.svg?iy2tdw#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
